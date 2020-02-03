@@ -32,7 +32,6 @@ body {
 
 .main-stacked {
   background-color: transparent;
-  align-items: right;
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -98,7 +97,7 @@ h2 {
 }
 
 p {
-	padding left: 100px;
+	padding-left: 100px;
 	color: white;
 	font-size: 30px;
 	text-align: center !important;
@@ -231,5 +230,54 @@ p {
 	float: right;
 	height: 700px;
 	width: 800px;
+}
+
+.main-header {
+	width: 1690px !important;
+	height: 220px !important;
+	margin: 0 auto;
+	background-color: #111 !important;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.main-logo {
+	background-color: #333;
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: absolute !important;
+	margin-left: 250px;
+}
+
+.footer-stacked {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 0px;
+  padding-right: 250px;
+  padding-top: 40px;
+}
+
+#footer-social {
+	background-color: #333;
+	width: 200px;
+	height: 50px;
+	margin-left: auto;
+  	display: flex;
+  	margin-top: 10px;
+}
+
+#footer-nav {
+	background-color: #333;
+	width: 480px;
+	height: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: 0;
 }
 
